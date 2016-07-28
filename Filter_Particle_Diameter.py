@@ -5,7 +5,7 @@ import glob
 
 #Variables
 SevenZ_dir = r"C:\Program Files\7-Zip\7z.exe"
-Diameter_filter = 50 #in pixels; select for particles with diameter equal to or larger than specified
+Diameter_filter = 50 # in pixels. Size filter to select for particles equal to or larger than the specified diameter.
 
 directory = input("Please enter folder directory containing ROI set .zip and Results table: ")
 

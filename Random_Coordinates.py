@@ -2,9 +2,11 @@
 
 #######################################
 # Parameters:
-NUMBER_OF_POINTS = 5 # 5 random coordinates to select
-BOX_SIZE = 500 # Number of pixels from centre of square (e.g. 500 = 1000 x 1000)
+NUMBER_OF_POINTS = 5 # Number of random coordinates to select
+SQUARE_WIDTH = 1000 # Width/Height of square in pixels
 COORDINATES = input("Enter makePolygon coordinates: ")
+
+BOX_SIZE = SQUARE_WIDTH*0.5
 
 #######################################
 # read node list 
