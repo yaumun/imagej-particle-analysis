@@ -6,6 +6,10 @@ Written by Yau Mun LIM
 
 Email: yau.m.lim@kcl.ac.uk
 
+Acknowledgements:
+
+Many thanks to Kuang Lin for helping me write the Python scripts which I was not familiar with. I have since then modified the Python scripts to be more user-friendly.
+
 Notes:
 
 Currently developed for Windows devices only due to differences in directory tree format between OS.
