@@ -2,11 +2,11 @@
 
 #######################################
 # Parameters:
-NUMBER_OF_POINTS = 5 # Number of random coordinates to select
-SQUARE_WIDTH = 1000 # Width/Height of square in pixels
+NUMBER_OF_POINTS = input("Number of random squares: ") # Number of random coordinates to select
+SQUARE_WIDTH = input("Width/Height of squares in pixels: ") # Width/Height of square in pixels
 COORDINATES = input("Enter makePolygon coordinates: ")
 
-BOX_SIZE = SQUARE_WIDTH*0.5
+BOX_SIZE = int(SQUARE_WIDTH)*0.5
 
 #######################################
 # read node list 
@@ -71,7 +71,7 @@ while True:
 # generate the point coordinates
 import random
 points=[]
-while len(points) < NUMBER_OF_POINTS:
+while len(points) < int(NUMBER_OF_POINTS):
     cor_x=random.randrange(0,MAX_WIDTH)
     cor_y=random.randrange(0,MAX_HEIGHT)
     
