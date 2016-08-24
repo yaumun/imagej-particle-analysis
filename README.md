@@ -22,7 +22,7 @@ Installation instructions:
 		ImageJ for Windows
 		Python for Windows
 		7-Zip for Windows
-		Hull And Circle (3rd party plugin for ImageJ; included)
+		Hull And Circle (3rd party plugin for ImageJ, https://imagej.nih.gov/ij/plugins/hull-circle.html; included)
 		
 	Adjust the global variables within each macro/Python script as necessary:
 		ImageJ macro:
