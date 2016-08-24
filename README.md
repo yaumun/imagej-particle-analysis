@@ -34,17 +34,10 @@ Installation instructions:
 			
 			Adjust the size of the squares to be generated and analysed. Again, this needs to be optimised depending on the amount of total area available for analysis.
 			
-		Random Coordinates Python script:
-			Under the #Parameters heading,
-			
-			Adjust the desired number of squares (NUMBER_OF_POINTS) and size of square (BOX_SIZE) accordingly.
-			
 		Filter Particle Diameter Python script:
 			Under the #Variables heading,
 			
 			Change the Installation location of 7-Zip accordingly.
-			
-			Change the diameter threshold for particle filtering accordingly.
 			
 	To use the ImageJ macros and scripts, a prerequisite is that your 'Whole region' .tif/tiff images MUST* be named in this format (without the brackets):
 	
