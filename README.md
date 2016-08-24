@@ -59,6 +59,10 @@ Installation instructions:
 
 Changelog:
 
+v1.2 - 24/08/2016
+
+	Changed the Python scripts 'Random_Coordinates' and 'Filter_Particle_Diameter' so that the Number of squares, Size of squares, and Diameter size filter can be defined without editing the Python script.
+
 v1.1 - 27/07/2016
 
 	Added new input variable in Random Coordinates Python script to reflect actual size of square (width/height) in pixels.
