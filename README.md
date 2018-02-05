@@ -25,19 +25,20 @@ Installation instructions:
 		Hull And Circle (3rd party plugin for ImageJ, https://imagej.nih.gov/ij/plugins/hull-circle.html; included)
 		
 	Adjust the global variables within each macro/Python script as necessary:
-		ImageJ macro:
+		ImageJ macro (Particle_analyses_macro.ijm):
 			Under the //Global variables heading,
 			
-			Change the Parent_folder variable to where you want the generated random squares to be saved. I recommend this to be a dedicated folder for your analysis. You can also change this to your 'test' folder for optimisation of parameters.
+			Parent_folder: Change the directory to where you want the generated random squares to be saved. I recommend this to be a dedicated folder for your analysis. You can also change this to your 'test' folder for optimisation of parameters.
 			
-			Adjust the number of squares intended to be generated and analysed accordingly. May need to be optimised based on the amount of total area available for analysis.
+			No_squares: Adjust the number of squares intended to be generated and analysed accordingly. May need to be optimised based on the amount of total area available for analysis.
 			
-			Adjust the size of the squares to be generated and analysed. Again, this needs to be optimised depending on the amount of total area available for analysis.
+			Square_size: Adjust the size of the squares to be generated and analysed. Again, this needs to be optimised depending on the amount of total area available for analysis.
 			
-		Filter Particle Diameter Python script:
-			Under the #Variables heading,
+		Random coordinate generator Python script (Random_Coordinates.py):
+			NUMBER_OF_POINTS and SQUARE_WIDTH: Adjust to correspond with No_squares and Square_size in Particle_analyses_macro.ijm
 			
-			Change the Installation location of 7-Zip accordingly.
+		Filter Particle Diameter Python script (Filter_Particle_Diameter.py):
+			Under the #Variables heading, change the Installation location of 7-Zip if necessary.
 			
 	To use the ImageJ macros and scripts, a prerequisite is that your 'Whole region' .tif/tiff images MUST* be named in this format (without the brackets):
 	
